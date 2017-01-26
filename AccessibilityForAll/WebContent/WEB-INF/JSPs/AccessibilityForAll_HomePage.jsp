@@ -4,9 +4,37 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Accessibility For All Home</title>
 </head>
 <body>
-Home Page 
+ <div id= 'header'>
+ 
+ <%@include file="AccessibilityForAll_Header.jsp" %>
+ 
+ </div>
+ 
+ 
+<div id= 'mainbody'>   
+<!-- depending upon the menu click change the jsp file from this section. -->
+ 
+ <%@include file="AccessibilityForAll_HomePageBody.jsp" %>
+ 
+ </div>
+ 
+  
+  
+<aside>
+  <%@include file="AccessibilityForAll_UsefulLinksjsp.jsp" %>
+</aside>
+
+ <div id= 'footer'>
+ 
+<%@include file="AccessibilityForAll_Footer.jsp" %>
+ 
+ </div>
+
+
+
 </body>
+
 </html>
