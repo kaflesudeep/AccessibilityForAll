@@ -5,36 +5,45 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Accessibility For All Home</title>
+
+
+
+
+<style><%@ include file="/Resources/css/homepage_layout.css"%>
+<%@ include file="/Resources/css/homepage_menu.css"%>
+		
+</style>
+
+
+
+
+
 </head>
 <body>
- <div id= 'header'>
+	 <div class= 'header'>
+		<%@include file="AccessibilityForAll_Header.jsp" %>
+		
+	 </div>
  
- <%@include file="AccessibilityForAll_Header.jsp" %>
  
- </div>
- 
- 
-<div id= 'mainbody'>   
-<!-- depending upon the menu click change the jsp file from this section. -->
- 
- <%@include file="AccessibilityForAll_HomePageBody.jsp" %>
- 
- </div>
- 
-  
-  
-<aside>
-  <%@include file="AccessibilityForAll_UsefulLinksjsp.jsp" %>
-</aside>
+ 	 <div id= 'mainbody' class="clearfix">
+	 	    <div class="column content">   
+			<!-- depending upon the menu click change the jsp file from this section. -->
+			<%@include file="AccessibilityForAll_HomePageBody.jsp" %>
+			</div>
+	 
+	 
+		    <div class="column usefullink"> 
+		    <%@include file="AccessibilityForAll_UsefulLinksjsp.jsp" %>
+		    </div>
+		  
 
- <div id= 'footer'>
- 
-<%@include file="AccessibilityForAll_Footer.jsp" %>
- 
- </div>
-
-
+        
+       </div>
+       
+        <div class= 'footer' >
+ 		    <%@include file="AccessibilityForAll_Footer.jsp" %>
+ 		  </div> 
 
 </body>
-
 </html>

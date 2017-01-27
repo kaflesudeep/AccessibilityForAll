@@ -6,16 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 
-<style>
 
-#header {
-    clear:both; 
-    background-color: lightblue;
-}
-
-
-
-</style>
 </head>
 <body id="footer">
 this is footer

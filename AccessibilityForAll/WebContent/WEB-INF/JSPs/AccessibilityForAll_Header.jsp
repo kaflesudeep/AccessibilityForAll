@@ -8,14 +8,6 @@
 
 <style>
 
-#header {
-    border: 1px solid black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 15px;
-    margin-left: 8px;
-    background-color: lightblue;
-}
 
 
 
@@ -24,10 +16,13 @@
 <body>
 <div id="header" role="banner">
 <H1> Accessibility For All </H1>
+</div>
 
-<a href="#content" title="Skip to content"> Skip to Content</a>
+<div><a href="#content" title="Skip to content"> Skip to Content</a></div>
 
-<nav id="mainnav" role="navigation">
+
+<div>
+<nav class="menu" id="mainnav" role="navigation">
 	<ul>
 	<li><a href="AccessibilityForAll_HomePage.jsp" title=" Home Page">Home</a></li>
 	<li><a href="AccessibilityForAll_Elements.jsp" title="HTML Common Elements">Elements</a></li>
