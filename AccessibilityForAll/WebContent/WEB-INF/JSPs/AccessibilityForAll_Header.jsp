@@ -24,11 +24,11 @@
 <div>
 <nav class="menu" id="mainnav" role="navigation">
 	<ul>
-	<li><a href="AccessibilityForAll_HomePage.jsp" title=" Home Page">Home</a></li>
-	<li><a href="AccessibilityForAll_Elements.jsp" title="HTML Common Elements">Elements</a></li>
-	<li><a href="AccessibilityForAll_News.jsp" title="Accessibility Related News">News</a></li>
-	<li><a href="AccessibilityForAll_About.jsp" title="About our Webpage">About</a></li>
-	<li><a href="AccessibilityForAll_Contactus.jsp" title="Contact us">Contacts</a></li>
+	<li><a href="#" id="homeM" title=" Home Page">Home</a></li>
+	<li><a href="#" id="elementsM" title="HTML Common Elements">Elements</a></li>
+	<li><a href="#" id="newsM" title="Accessibility Related News">News</a></li>
+	<li><a href="#" id="aboutM"  title="About our Webpage">About</a></li>
+	<li><a href="#" id="contactsM" title="Contact us">Contacts</a></li>
 	</ul>
 </nav>
 

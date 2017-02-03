@@ -5,7 +5,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Accessibility For All Home</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
+<script>
+<%@ include file="/Resources/js/homepageMenu.js"%>
+
+
+</script>
 
 
 
@@ -15,22 +21,39 @@
 </style>
 
 
-
-
-
 </head>
 <body>
 	 <div class= 'header'>
 		<%@include file="AccessibilityForAll_Header.jsp" %>
 		
-	 </div>
+ </div>
  
  
  	 <div id= 'mainbody' class="clearfix">
-	 	    <div class="column content">   
-			<!-- depending upon the menu click change the jsp file from this section. -->
-			<%@include file="AccessibilityForAll_HomePageBody.jsp" %>
+	 	   
+	 	   
+	 	    <div class="column content" id="homePage" >   
+			     <%@include file="AccessibilityForAll_HomePageBody.jsp" %> 
+ 			</div>
+	  
+	 
+	       <div class="column content" id="elementsPage" >   
+			      <%@include file="AccessibilityForAll_Elements.jsp" %> 
+		   </div>
+	  
+	  		<div class="column content" id="newsPage" >   
+			      <%@include file="AccessibilityForAll_News.jsp" %> 
 			</div>
+			 
+			 <div class="column content" id="aboutPage" >   
+			      <%@include file="AccessibilityForAll_About.jsp" %> 
+			</div>
+			
+	 
+	 		 <div class="column content" id="contactsPage" >   
+			      <%@include file="AccessibilityForAll_Contactus.jsp" %> 
+			</div>
+	 
 	 
 	 
 		    <div class="column usefullink"> 
