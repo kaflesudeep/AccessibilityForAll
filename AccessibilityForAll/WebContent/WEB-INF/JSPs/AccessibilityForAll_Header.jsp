@@ -15,7 +15,17 @@
 </head>
 <body>
 <div id="header" role="banner">
-<H1> Accessibility For All </H1>
+	<table>
+		<tr >
+<!-- 		Note: logo soece is not correctly used need to change. -->
+		<td width=15% ><img src="file:///D:/AccessibilityForAll/AccessibilityForAll/AccessibilityForAll/WebContent/Resources/images/logo.jpg" alt="A11Yteam Logo" ></td>
+<!-- 			<td width=15% ><img src="/Resources/images/logo.jpg" alt="A11Yteam Logo" ></td> -->
+			<td width=85%><H1> Accessibility For All </H1></td>
+		</tr>
+	</table>
+
+
+
 </div>
 
 <div><a href="#content" title="Skip to content"> Skip to Content</a></div>

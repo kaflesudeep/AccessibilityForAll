@@ -9,8 +9,6 @@
 
 <script>
 <%@ include file="/Resources/js/homepageMenu.js"%>
-
-
 </script>
 
 
@@ -22,6 +20,7 @@
 
 
 </head>
+
 <body>
 	 <div class= 'header'>
 		<%@include file="AccessibilityForAll_Header.jsp" %>
