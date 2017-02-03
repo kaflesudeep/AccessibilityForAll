@@ -16,8 +16,7 @@
 <li><a href="#">Useful link 3</a> </li>
 <li><a href="#">Useful link 4</a> </li>
 <li><a href="#">Useful link 5</a> </li>
-<li><a href="#">Useful link 6</a> </li>
-<li><a href="#">Useful link 7</a> </li>
+
 </ul>
 
 
