@@ -9,12 +9,14 @@
 
 <script>
 <%@ include file="/Resources/js/homepageMenu.js"%>
+<%@ include file="/Resources/js/validate_Contactus.js"%>
 </script>
 
 
 
 <style><%@ include file="/Resources/css/homepage_layout.css"%>
 <%@ include file="/Resources/css/homepage_menu.css"%>
+<%@ include file="/Resources/css/screenreader.css"%>
 		
 </style>
 
