@@ -10,11 +10,12 @@
 $(document).ready(function(){
 	$("<span aria-hidden='true'>*</span><span class='hidden'>Required Field</span>").css({"color": "red"}).appendTo(".required");
 	
-	$('#submit_button').on("click", function () {
+	$('form').submit(function () {
 	    var error_field= validateContactusForm(); 
          // Check if there are error fielsd of not
 	    if (error_field.toLowerCase()  ===  "true") {
 	   
+	    
 	        return false;
 	    }
 	});
@@ -36,25 +37,25 @@ $(document).ready(function(){
  <span id="GlobalError" > </span>
 </div>
 <div>
-<form method="post" action="" >
+<form method="post" action="contactus" >
 <table>
 		<tr> 
 			<td><label id="label" class="required">First Name : </label> </td>
-			<td><input type="text" name= "fName"  id="fname" > </td>
+			<td><input type="text" name= "firstName"  id="fname" value="test"> </td>
 		</tr>
 		
 		<tr> 
 			<td><label id="label" class="required">Last Name : </label> </td>
-			<td><input type="text" name= "lName"  id="lname" > </td>
+			<td><input type="text" name= "lastName"  id="lname" value="test"> </td>
 		</tr>
 		
 		<tr> 
 			<td><label id="label"> Your Organization Name: </label> </td>
-			<td><input type="text" name= "orginationname" id="orgName" >   </td>
+			<td><input type="text" name= "orginationName" id="orgName" value="test">   </td>
 		</tr>
 		<tr id="passw"> 
 			<td><label id="label" class="required"> Email Address: </label> </td>
-			<td><input type="text" name= "emailAddress" id="emailAddress" >  </td>
+			<td><input type="text" name= "emailAddress"  id="emailAddress" value="sudeep@gmail.com">  </td>
 		</tr>
         
         <tr>  
@@ -71,12 +72,12 @@ $(document).ready(function(){
          <tr>
           <td><label id="label" class="required"> Description:  </label> </td>
           <td>        
-            <input type="text" id="description" name= "description" value="" style="width:100px; height:40px;">
+            <input type="text" id="description" name= "description" value="test" style="width:100px; height:40px;">
           </td>
          </tr>
 </table>
 
- <input type="button" id = "submit_button" value="Next" />	
+ <input type="submit" id = "submit_button" value="Submit" />	
   </form>
 </div>
 

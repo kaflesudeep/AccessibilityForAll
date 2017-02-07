@@ -1,11 +1,11 @@
 
 function validateContactusForm(){
 	removevalidationall();
+	var error_field= "false"; 
 	var firstName= $('#fname').val();
 	var lastName= $('#lname').val();
 	var emailAdd= $('#emailAddress').val();
 	var description_info= $('#description').val();
-	
 	var name_regex = /^[a-zA-Z]+$/;
 	var email_regex = /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/;
 	var alphanumeric = /^[a-zA-Z0-9\s\.\?]+$/;
@@ -40,9 +40,9 @@ function validateContactusForm(){
 		 $("#GlobalError").append("<p id='error'>There is error in your page. Enter correct information before submition. </p>").css({'color':'red'});
 	}
 
+	 return error_field; 
 	
-	
-}; 
+} 
 
 function removevalidation (){
 	

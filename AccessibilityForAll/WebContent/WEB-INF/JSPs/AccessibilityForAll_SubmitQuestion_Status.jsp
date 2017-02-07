@@ -14,6 +14,9 @@
  
  <p> Your information has been successifully submited. 
  
+ Your feedback submission Id is : ${saving_feedback_status_ID}
+ Please refer to this ID for further inquiry. 
+ 
  Thank you for your Submission. 
  
  We will respond as soon as possible.  
