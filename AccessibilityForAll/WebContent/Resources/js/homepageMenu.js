@@ -31,14 +31,7 @@ $(document).ready(function(){
  		$("#contactsPage").hide();
 	}); 
 	
-	$("#aboutM").click(function(){
-		$("#homePage").hide(); 
-		$("#elementsPage").hide();
-		$("#newsPage").hide();
-		$("#aboutPage").show();
- 		$("#contactsPage").hide();
-	}); 
-	
+		
 	$("#contactsM").click(function(){
 		$("#homePage").hide(); 
 		$("#elementsPage").hide();
