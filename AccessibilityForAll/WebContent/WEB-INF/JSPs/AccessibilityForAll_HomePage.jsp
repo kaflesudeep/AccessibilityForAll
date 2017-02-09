@@ -55,6 +55,26 @@
 			      <%@include file="AccessibilityForAll_Contactus.jsp" %> 
 			</div>
 	 
+<!-- 	 sub menus  -->
+	       <div class="column content" id="toolsandsetupPage" >   
+			      <%@include file="subMenu_JSPs/AccessibilityForAll_ToolsAndSetup.jsp" %> 
+		   </div>
+		   
+		   <div class="column content" id="testingkeysPage" >   
+			      <%@include file="subMenu_JSPs/AccessibilityForAll_TestingKeys.jsp" %> 
+		   </div>
+		   
+		   <div class="column content" id="guidelinesPage" >   
+			      <%@include file="subMenu_JSPs/AccessibilityForAll_Guideline.jsp" %> 
+		   </div>
+		   
+		   <div class="column content" id="helpfultipsPage" >   
+			      <%@include file="subMenu_JSPs/AccessibilityForAll_HelpfulTips.jsp" %> 
+		   </div>
+	 
+	 
+	 
+	 
 	 
 	 
 		    <div class="column usefullink"> 

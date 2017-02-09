@@ -39,10 +39,10 @@
 	<li class="menulist"><a href="#" id="newsM" title="Accessibility Related News">News</a></li>
 	<li class="menulist dropdown" > <a href="#" id="aboutM" class="dropbtn">Testing</a>
     <div class="dropdown-content">
-      <a href="#">Tools & Setup ></a>
-      <a href="#">Testing Keys ></a>
-      <a href="#">WCAG Overview ></a>
-      <a href="#">Helpful Tips > </a>
+      <a href="#" id="toolsandsetupM">Tools & Setup ></a>
+      <a href="#" id="testingKeyM" >Testing Keys ></a>
+      <a href="#" id="guidelinesM" >Guidelines ></a>
+      <a href="#" id="helpfultipsM" >Helpful Tips > </a>
     </div>
   </li>
   

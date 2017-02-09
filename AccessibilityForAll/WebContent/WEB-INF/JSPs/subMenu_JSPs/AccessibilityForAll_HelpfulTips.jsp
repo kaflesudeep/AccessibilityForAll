@@ -5,11 +5,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
-
-
 </head>
-<body id="footer">
-Copyright © 2017 A11yteam-ForAll, LLC. All Rights Reserved.
-    Privacy | Disclaimer
+<body>
+helpful tips
 </body>
 </html>

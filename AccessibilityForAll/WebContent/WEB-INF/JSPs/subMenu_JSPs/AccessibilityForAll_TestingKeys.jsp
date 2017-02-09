@@ -5,11 +5,23 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
-
-
 </head>
-<body id="footer">
-Copyright © 2017 A11yteam-ForAll, LLC. All Rights Reserved.
-    Privacy | Disclaimer
+<body>
+Testing Keys 
+
+<h3>Desktop / Tablet</h3>
+<p>&nbsp;</p>
+<h4>IE+ Jaws</h4>
+<h4>&nbsp;</h4>
+<h4>FF + NVDA</h4>
+<h4>&nbsp;</h4>
+<h4>Safari + VO</h4>
+<p>&nbsp;</p>
+<p>Phone</p>
+<h4>iOS Phone</h4>
+<h4>&nbsp;</h4>
+<h4>Android Phone</h4>
+
+
 </body>
 </html>
