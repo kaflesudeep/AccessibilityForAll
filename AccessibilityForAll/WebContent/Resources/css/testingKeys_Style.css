@@ -1,0 +1,33 @@
+table, td, th {
+    border: 1px solid black;
+    border-color: #000066; 
+    padding: 5px; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+
+th{
+background-color: #00004d;
+color: white; 
+  height: 20px;
+  font-size: 15px;
+}
+
+
+.testingKeys_table {
+background-color: #ccccb3;
+}
+
+.testingKeys_table>tr:nth-child(even){background: #e6f2ff;}
+.testingKeys_table>tr:nth-child(odd) {background:  #b3d7ff} 
+
+.relative {
+    position: relative;
+    left: 50px;
+    
+}

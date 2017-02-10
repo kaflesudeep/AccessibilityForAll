@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 .header, .footer {
-    background-color: grey;
+    background-color: #89bbaa;
     color: white;
     padding: 5px;
 }
