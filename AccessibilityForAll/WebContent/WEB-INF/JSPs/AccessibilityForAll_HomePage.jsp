@@ -10,6 +10,7 @@
 <script>
 <%@ include file="/Resources/js/homepageMenu.js"%>
 <%@ include file="/Resources/js/validate_Contactus.js"%>
+<%@ include file="/Resources/js/expand_and_collapse.js"%>
 </script>
 
 

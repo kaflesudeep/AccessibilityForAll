@@ -6,13 +6,18 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 
-testingKeys_Style.css
 
-<style><%@ include file="/Resources/css/testingKeys_Style.css"%>
 
-		
+<style><%@ include file="/Resources/css/testingKeys_Style.css"%></style>
+<style>
+.expand_collapse_link{
+
+background-color: grey;
+ border: 1px solid black;
+    border-color: #000066; 
+    padding: 5px; }
+
 </style>
-
 </head>
 <body>
 Testing Keys 
@@ -22,8 +27,8 @@ Testing Keys
 <h4>IE+ Jaws</h4>
 
 <div id="reading" class="section">
-<h2>Reading Text</h2>
-<table class="relative">
+<h2>Reading Text</h2>   <a href="#" class="expand_collapse_link" id="dd" >Collapse - </a>
+<table class="relative" id="readingtest_section">
 <tbody class="testingKeys_table" >
 <tr><th scope="col">Command</th><th scope="col">Description</th></tr>
 <tr>
@@ -66,9 +71,9 @@ Testing Keys
 </table>
 </div>
 <div id="headings" class="section">
-<h2>List Elements&nbsp;</h2>
-<table class="relative">
-<tbody  class="testingKeys_table">
+<h2>List Elements&nbsp;</h2> <a href="#" class="expand_collapse_link">Collapse - </a>
+<table class="relative" id="list_elements"> 
+<tbody  class="testingKeys_section">
 <tr><th scope="col">Command</th><th scope="col">Description</th></tr>
 <tr>
 <td>Insert + F1</td>
@@ -102,9 +107,8 @@ Testing Keys
 </table>
 </div>
 <div id="tables" class="section">
-<h2>Tables</h2>
-<div id="moving" class="section">
-<table class="relative">
+<h2>Tables</h2>   <a href="#" class="expand_collapse_link">Collapse - </a>
+<table class="relative" id="tables_section">
 <tbody  class="testingKeys_table">
 <tr><th scope="col">Command</th><th scope="col">Description</th></tr>
 <tr>
@@ -158,10 +162,9 @@ Testing Keys
 </tbody>
 </table>
 </div>
-</div>
 <div id="dialog" class="section">
-<h2>Forms</h2>
-<table class="relative">
+<h2>Forms</h2> <a href="#" class="expand_collapse_link">Collapse - </a>
+<table class="relative" id="forms_section">
 <tbody  class="testingKeys_table">
 <tr><th scope="col">Command</th><th scope="col">Description</th></tr>
 <tr>
@@ -206,8 +209,8 @@ Testing Keys
 </table>
 </div>
 <div id="links" class="section">
-<h2>Links</h2>
-<table class="relative">
+<h2>Links</h2> <a href="#" class="expand_collapse_link">Collapse - </a>
+<table class="relative" id="links_section">
 <tbody  class="testingKeys_table">
 <tr><th scope="col">Command</th><th scope="col">Description</th></tr>
 <tr>
@@ -226,8 +229,8 @@ Testing Keys
 </table>
 </div>
 <div id="frames" class="section">
-<h2>Frames</h2>
-<table class="relative">
+<h2>Frames</h2><a href="#" class="expand_collapse_link">Collapse - </a>
+<table class="relative" id="frame_section">
 <tbody  class="testingKeys_table">
 <tr><th scope="col">Command</th><th scope="col">Description</th></tr>
 <tr>
