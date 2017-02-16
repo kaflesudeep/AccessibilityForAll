@@ -4,7 +4,7 @@ $(document).ready(function(){
 	$(".expand_collapse_link").click(function(){
          var toggle_section_id= $(this).next().attr('id'); 
   
-         $('#'+toggle_section_id).toggle(1000);
+         $('#'+toggle_section_id).toggle();
          var text = $(this).text(); 
          if (text=="Expand +"){
          $(this).text("Collapse -"); 
