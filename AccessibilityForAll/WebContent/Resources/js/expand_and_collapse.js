@@ -1,8 +1,8 @@
 $(document).ready(function(){
 	$('body').click('a[href="#"]', function(e) {e.preventDefault() });  // this code prevent from focus jump
-    $(".expand_collapse_link").click(function(){
-    
-    var toggle_section_id= $(this).next().attr('id')
+	
+	$(".expand_collapse_link").click(function(){
+         var toggle_section_id= $(this).next().attr('id'); 
   
          $('#'+toggle_section_id).toggle(1000);
          var text = $(this).text(); 
@@ -10,8 +10,6 @@ $(document).ready(function(){
          $(this).text("Collapse -"); 
          }else{
            $(this).text("Expand +");
-         }
-         
-         
+         }        
     });
 });
