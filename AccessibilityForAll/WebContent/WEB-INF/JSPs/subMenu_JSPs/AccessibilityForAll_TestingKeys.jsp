@@ -10,12 +10,6 @@
 
 <style><%@ include file="/Resources/css/testingKeys_Style.css"%></style>
 <style>
-.expand_collapse_link{
-
-background-color: grey;
- border: 1px solid black;
-    border-color: #000066; 
-    padding: 5px; }
 
 </style>
 </head>

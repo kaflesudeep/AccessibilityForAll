@@ -11,6 +11,7 @@ table {
 
 
 
+
 th{
 background-color: #00004d;
 color: white; 
@@ -44,5 +45,11 @@ float:left;
 .expand_collapse_link{
 text-align:right;
 float:right;
+background-color: grey;
+border: 1px solid black;
+    
+  }
 
-}
+
+h1, h2, h3, h4 {
+width:100%; }
