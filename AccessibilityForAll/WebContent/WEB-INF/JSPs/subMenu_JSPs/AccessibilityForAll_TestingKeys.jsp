@@ -22,11 +22,11 @@ background-color: grey;
 <body>
 Testing Keys 
 
-<h3>Desktop / Tablet</h3>
+<h2>Desktop / Tablet</h2>
 <p>&nbsp;</p>
-<h4>IE+ Jaws</h4>
+<h3><span style="background-color: #ffffff;">IE+ Jaws</span></h3>
 <div id="reading" class="section">
-<h2 class="testing_key_catagory" >Reading Text</h2>
+<h4 class="testing_key_catagory">Reading Text</h4>
 <a id="dd" class="expand_collapse_link" href="#">Collapse - </a>
 <table id="readingtest_section_IE" class="relative">
 <tbody class="testingKeys_table">
@@ -70,11 +70,9 @@ Testing Keys
 </tbody>
 </table>
 </div>
-
-<hr style="clear:both;"/>
-
+<hr style="clear: both;" />
 <div id="headings" class="section">
-<h2 class="testing_key_catagory" >List Elements&nbsp;</h2>
+<h4 class="testing_key_catagory">List Elements&nbsp;</h4>
 <a class="expand_collapse_link" href="#">Collapse - </a>
 <table id="list_elements_IE" class="relative">
 <tbody class="testingKeys_table">
@@ -110,9 +108,9 @@ Testing Keys
 </tbody>
 </table>
 </div>
-<hr style="clear:both;"/>
+<hr style="clear: both;" />
 <div id="tables" class="section">
-<h2 class="testing_key_catagory" >Tables</h2>
+<h4 class="testing_key_catagory">Tables</h4>
 <a class="expand_collapse_link" href="#">Collapse - </a>
 <table id="tables_section_IE" class="relative">
 <tbody class="testingKeys_table">
@@ -168,9 +166,9 @@ Testing Keys
 </tbody>
 </table>
 </div>
-<hr style="clear:both;"/>
+<hr style="clear: both;" />
 <div id="dialog" class="section">
-<h2 class="testing_key_catagory" >Forms</h2>
+<h4 class="testing_key_catagory">Forms</h4>
 <a class="expand_collapse_link" href="#">Collapse - </a>
 <table id="forms_section_IE" class="relative">
 <tbody class="testingKeys_table">
@@ -214,10 +212,9 @@ Testing Keys
 </tbody>
 </table>
 </div>
-<hr style="clear:both;"/>
-
+<hr style="clear: both;" />
 <div id="links" class="section">
-<h2 class="testing_key_catagory" >Links</h2>
+<h4 class="testing_key_catagory">Links</h4>
 <a class="expand_collapse_link" href="#">Collapse - </a>
 <table id="links_section_IE" class="relative">
 <tbody class="testingKeys_table">
@@ -237,10 +234,9 @@ Testing Keys
 </tbody>
 </table>
 </div>
-<hr style="clear:both;"/>
-
+<hr style="clear: both;" />
 <div id="frames" class="section">
-<h2 class="testing_key_catagory" >Frames</h2>
+<h4 class="testing_key_catagory">Frames</h4>
 <a class="expand_collapse_link" href="#">Collapse - </a>
 <table id="frame_section_IE" class="relative">
 <tbody class="testingKeys_table">
@@ -259,13 +255,11 @@ Testing Keys
 <div id="other" class="section">
 <h2>&nbsp;</h2>
 </div>
-<hr style="clear:both;"/>
-
-<h4>FF + NVDA</h4>
+<hr style="clear: both;" />
+<h3>FF + NVDA</h3>
 <p>The <strong>NVDA</strong> key is set to the <span class="keycap">Insert</span> key by default, but it can be changed to the <span class="keycap">Caps lock</span> key when installing NVDA for the first time. If you want to change your NVDA key preference later, press <span class="keycap">Ctrl</span> + <span class="keycap">NVDA</span> + <span class="keycap">K</span>.</p>
-<h2 class="testing_key_catagory" >Reading Text</h2>
-<a id="dd" class="expand_collapse_link" href="#">Collapse - </a>
-<table id="readingtest_section_NVDA" class="relative">
+<h4 class="testing_key_catagory">Reading Text</h4>
+<a id="dd" class="expand_collapse_link" href="#">Collapse - </a><table id="readingtest_section_NVDA" class="relative">
 <tbody class="testingKeys_table">
 <tr><th scope="col">Command</th><th scope="col">Description</th></tr>
 <tr>
@@ -306,9 +300,9 @@ Testing Keys
 </tr>
 </tbody>
 </table>
-<hr style="clear:both;"/>
+<hr style="clear: both;" />
 <div id="headings" class="section">
-<h2 class="testing_key_catagory" >List Elements&nbsp;</h2>
+<h4 class="testing_key_catagory">List Elements&nbsp;</h4>
 <a class="expand_collapse_link" href="#">Collapse - </a>
 <table id="list_elements_NVDA" class="relative">
 <tbody class="testingKeys_table">
@@ -336,9 +330,9 @@ Testing Keys
 </tbody>
 </table>
 </div>
-<hr style="clear:both;"/>
+<hr style="clear: both;" />
 <div id="tables" class="section">
-<h2 class="testing_key_catagory" >Tables</h2>
+<h4 class="testing_key_catagory">Tables</h4>
 <a class="expand_collapse_link" href="#">Collapse - </a>
 <table id="tables_section_NVDA" class="relative">
 <tbody class="testingKeys_table">
@@ -358,9 +352,9 @@ Testing Keys
 </tbody>
 </table>
 </div>
-<hr style="clear:both;"/>
+<hr style="clear: both;" />
 <div id="dialog" class="section">
-<h2 class="testing_key_catagory" >Forms</h2>
+<h4 class="testing_key_catagory">Forms</h4>
 <a class="expand_collapse_link" href="#">Collapse - </a>
 <table id="forms_section_NVDA" class="relative">
 <tbody class="testingKeys_table">
@@ -404,9 +398,9 @@ Testing Keys
 </tbody>
 </table>
 </div>
-<hr style="clear:both;"/>
+<hr style="clear: both;" />
 <div id="links" class="section">
-<h2 class="testing_key_catagory" >Links</h2>
+<h4 class="testing_key_catagory">Links</h4>
 <a class="expand_collapse_link" href="#">Collapse - </a>
 <table id="links_section_NVDA" class="relative">
 <tbody class="testingKeys_table">
@@ -426,12 +420,12 @@ Testing Keys
 </tbody>
 </table>
 </div>
-<hr style="clear:both;"/>
-<h4>Safari + VO</h4>
+<hr style="clear: both;" />
+<h3>Safari + VO</h3>
 <p>&nbsp;</p>
 <p>You can start (or stop) VoiceOver by pressing <span class="keycap">Command</span> + <span class="keycap">F5</span>. If you are on a laptop, you will likely need to additionally press the <span class="keycap">fn</span> (function) key to activate <span class="keycap">F5</span>.</p>
 <p>The VoiceOver Activation keys (called <strong>VO</strong> keys) are <span class="keycap">control</span> + <span class="keycap">option</span>. These keys are used to access special VoiceOver commands and functions and will be referenced simply as <span class="keycap">VO</span>. For example, <span class="keycap">VO</span> + <span class="keycap">H</span> (or <span class="keycap">control</span> + <span class="keycap">option</span> + <span class="keycap">H</span>) will open the VoiceOver Help menu.</p>
-<h2 class="testing_key_catagory" >Reading Text</h2>
+<h4 class="testing_key_catagory">Reading Text</h4>
 <a id="dd" class="expand_collapse_link" href="#">Collapse - </a>
 <table id="readingtest_section_Safari" class="relative">
 <tbody class="testingKeys_table">
@@ -474,9 +468,9 @@ Testing Keys
 </tr>
 </tbody>
 </table>
-<hr style="clear:both;"/>
+<hr style="clear: both;" />
 <div id="headings" class="section">
-<h2 class="testing_key_catagory" >Navigation&nbsp;</h2>
+<h4 class="testing_key_catagory">Navigation&nbsp;</h4>
 <p>Sighted users visually navigate through web content in a number of ways. They skim for headings, lists, tables, etc. Most of these methods are available to VoiceOver users if the web page is correctly structured and well organized.</p>
 <a class="expand_collapse_link" href="#">Collapse - </a>
 <table id="list_elements_Safari" class="relative">
@@ -517,20 +511,20 @@ Testing Keys
 </tbody>
 </table>
 </div>
-<hr style="clear:both;"/>
+<hr style="clear: both;" />
 <div id="tables" class="section">
-<h2 class="testing_key_catagory" >Tables</h2>
+<h4 class="testing_key_catagory">Tables</h4>
 <p>The cells of <a href="http://webaim.org/techniques/tables/data">data tables</a> can be navigated using <span class="keycap">VO</span> + the arrow keys. If a table has proper table headers, the column headers will be identified as the table is explored. VoiceOver does not currently read row headers, though it will identify the row number. <span class="keycap">VO</span> + <span class="keycap">C</span> will read the column header. VoiceOver also has difficulty with spanned row or column headers and when the top-left cell is empty. This often results in incorrect headers being read.</p>
 </div>
-<hr style="clear:both;"/>
+<hr style="clear: both;" />
 <div id="dialog" class="section">
-<h2 class="testing_key_catagory" >Forms</h2>
+<h4 class="testing_key_catagory">Forms</h4>
 <p>Support for correctly-labeled <a href="http://webaim.org/techniques/forms/">forms</a> is good in VoiceOver. When the &lt;label&gt; element is used to explicitly associate form controls and their descriptions, VoiceOver will read the appropriate label when that form element is navigated to. If a form control has a visual label that is not associated using the &lt;label&gt; element, VoiceOver will not auto-associate the label to the form control based on proximity. The legend for a &lt;fieldset&gt; will be read for grouped form controls. The title attribute value of unlabeled form controls will be read. If both a title attribute and a label is provided, both will be read.</p>
 <p><a href="http://webaim.org/articles/voiceover/forms">Form examples and practice</a></p>
 </div>
-<hr style="clear:both;"/>
+<hr style="clear: both;" />
 <div id="links" class="section">
-<h2 class="testing_key_catagory" >Links</h2>
+<h4 class="testing_key_catagory">Links</h4>
 <a class="expand_collapse_link" href="#">Collapse - </a>
 <table id="links_section_Safari" class="relative">
 <tbody class="testingKeys_table">
@@ -550,12 +544,11 @@ Testing Keys
 </tbody>
 </table>
 </div>
-<hr style="clear:both;"/>
-<p>Phone</p>
-<h4>iOS Phone</h4>
-<hr style="clear:both;"/>
-<h4>&nbsp;Android Phone</h4>
-<hr style="clear:both;"/>
-
+<hr style="clear: both;" />
+<h2>Phone</h2>
+<h3>iOS Phone</h3>
+<hr style="clear: both;" />
+<h3>&nbsp;Android Phone</h3>
+<hr style="clear: both;" />
 </body>
 </html>
