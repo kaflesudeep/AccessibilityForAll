@@ -5,21 +5,36 @@
     background-color: #89bbaa;
     color: white;
     padding: 5px;
+    
+}
+.header{
+	position: fixed;
+    top: 0;
+    width: 100%;
+	
+}
+
+.footer{
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+	
 }
 .column {
     float: left;
-    padding: 5px;
+    padding-left: 150px;
 }
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
+    position: absolute; 
 }
 .menu {
     width: 40%;
 }
 .content {
-    width: 75%;
+    width: 65%;
 }
 .menu ul {
     list-style-type: none;

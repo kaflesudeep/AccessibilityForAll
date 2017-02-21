@@ -14,14 +14,19 @@
 </style>
 </head>
 <body>
-Testing Keys 
+<h1>Testing Keys </h1>
 
 <h2>Desktop / Tablet</h2>
 <p>&nbsp;</p>
 <h3><span style="background-color: #ffffff;">IE+ Jaws</span></h3>
 <div id="reading" class="section">
 <h4 class="testing_key_catagory">Reading Text</h4>
+<p>Reading the screen is done by pressing keys on the numeric keypad, or NUM PAD, sometimes in combination with other keys on the keyboard. When JAWS is loaded, the NUM LOCK is turned off, so that the keys represent movement keys, such as left arrow, right arrow, page up, and so on.
+If you want to use your number pad for typing numbers, press NUM LOCK to toggle back and forth from screen reading mode to number input mode.</p>
 <a id="dd" class="expand_collapse_link" href="#">Collapse - </a>
+
+
+
 <table id="readingtest_section_IE" class="relative">
 <tbody class="testingKeys_table">
 <tr><th scope="col">Command</th><th scope="col">Description</th></tr>
@@ -105,6 +110,12 @@ Testing Keys
 <hr style="clear: both;" />
 <div id="tables" class="section">
 <h4 class="testing_key_catagory">Tables</h4>
+<p>New Table Layer Reading Commands
+
+New beginning with JAWS version 13, table layer keystrokes offer a fast and convenient way to navigate tables. The table layer eliminates the need to hold down several keys at once to perform a table navigation command.
+Below is a list of the layered keystrokes for table navigation. Press and release INSERT+SPACEBAR, followed by T to get to the table layer. Then press any of the following keystrokes.
+NOTE: Table layer reading commands are not yet available in MAGic, unless you are using both JAWS and MAGic together. Use the classic table reading commands listed in the second table below if you are using MAGic alone.
+ </p>
 <a class="expand_collapse_link" href="#">Collapse - </a>
 <table id="tables_section_IE" class="relative">
 <tbody class="testingKeys_table">
@@ -163,6 +174,18 @@ Testing Keys
 <hr style="clear: both;" />
 <div id="dialog" class="section">
 <h4 class="testing_key_catagory">Forms</h4>
+
+<p>
+The following is a list of JAWS navigation quick key commands that allow you to move quickly from one control to another. When running JAWS alone, or both JAWS and MAGic together, all commands listed below work. You can use the SHIFT key in combination with many of the keystrokes to move to the previous unit or element.
+
+
+TIP: Forms mode is automatically turned off when you activate a button that submits a form.
+
+NOTE: When using JAWS navigation quick keys, the default setting is for forms mode not to come on automatically. This can be changed in the JAWS Quick Settings dialog box accessed by pressing INSERT+V or in the JAWS Settings Center discussed earlier. Using navigation quick keys in forms is discussed in more detail later in this lesson.
+
+
+</p>
+
 <a class="expand_collapse_link" href="#">Collapse - </a>
 <table id="forms_section_IE" class="relative">
 <tbody class="testingKeys_table">

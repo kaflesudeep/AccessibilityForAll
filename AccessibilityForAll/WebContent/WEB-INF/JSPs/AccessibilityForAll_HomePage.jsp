@@ -21,7 +21,17 @@
 		
 </style>
 
+<style>
 
+#mainbody{
+padding:20px;
+margin-top:150px;
+margin-bottom:150px;
+}
+
+
+
+</style>
 </head>
 
 <body>
